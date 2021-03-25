@@ -12,7 +12,7 @@ In this repo, I will be completing the labs for 401 Java
 *pluralize*
 a method used to make mutiples of words or numbers
 
-
+*Tally*
 
 
 
