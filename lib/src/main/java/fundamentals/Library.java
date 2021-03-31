@@ -3,7 +3,9 @@
  */
 package fundamentals;
 
+import java.sql.SQLOutput;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Library {
     //loop through n times and out a number in the array each time
@@ -16,13 +18,61 @@ public class Library {
 
         return diceRoll;
     }
+
+
+
+    public static boolean containsDuplicates(int[] arr){
+
+        System.out.println(Arrays.toString(arr));
+        boolean output = false;
+        for (int i = 0; i < arr.length; i++) {
+
+            for (int j = i+1; j < arr.length; j++) {
+                if (arr[i] == arr[j]) {
+                    output = true;
+                }
+
+            }
+        }
+        return output;
+    }
 }
 
-//    public static boolean containsDuplicates(int[] arr){
-//// random array of numbers and need to know if there are any repeats
-//// loop through an array and look for duplicates
+//    public static int[] calculatingAverages(int n) {
+//    int[] average = ;
 //    }
-//}
+
+    public static void arrayOfArrays(String[] args){
+        int[] arrOfArrs = new int[n];
+        System.out.println(arr);
+        Scanner scanner = new Scanner(System.in);
+
+    }
+
+    //take in an array of integers
+    //method to calculate the average
+    //
+
+    // random array of numbers and need to know if there are any repeats
+    // loop through an array and look for duplicates
+
+        // access i and j, compare them
+
+        // lets it be known that there were no duplicates
+        //equal to, check the indexes of the array to find ==
+        // i = duplicates 3,3
+        // j = not != 2
+        // return at the end
+        //single output to be return at the very end of the program
+        //Find if there are duplicates
+//    if ()
+//        true
+//        false
+
+//
+
+
+
 
 
 // sum and divide - calculate averages

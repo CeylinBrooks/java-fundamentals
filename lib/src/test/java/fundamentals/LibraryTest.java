@@ -15,4 +15,10 @@ public class LibraryTest {
 
         assertEquals(3, temp);
     }
+    @Test public void testcontainsDuplicates() {
+        int[] arr = {1,2,3,1};
+        boolean output = Library.containsDuplicates(arr);
+        assertTrue(output);
+    }
 }
+
