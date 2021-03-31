@@ -11,7 +11,16 @@ A method that "flips a coin" until a determined number of flips is acheived for 
 
 ### Pluralize
 
-A method that takes in a word and returns that word with an 's', in turn making it pluralized! (Based on that number being 0 or more than on )
+A method that takes in a word and returns that word with an 's', in turn making it pluralized! (Based on that number being 0 or more than on)
+
+## Dice Roll
+
+A method that takes in a array of six random numbers and uses the Math.random function for the "roll" of the dice.
+
+## Contains Duplicates 
+
+A method uses booleans to return true or false based on if the array contains duplicates.
+
 
 *Command Line Clock*
 
